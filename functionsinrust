@@ -1,0 +1,11 @@
+fn add(x: i32, y: i32) -> i32 {
+
+x + y // No semicolon since it is a return expression
+
+}
+
+// Call the function
+
+let sum = add(5, 10);
+
+println!("The sum is {}", sum);
